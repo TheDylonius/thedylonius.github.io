@@ -1,0 +1,112 @@
+/*
+	Theme Name: 	Dylonius.GitHub.io - Main Theme
+	Theme URI: 		https://thedylonius.github.io/thedylonius.github.io
+	Author: 		TheDylonius
+	Author URI: 	https://thedylonius.github.io/thedylonius.github.io
+	Description:	This is the main theme that I will use within my GitHub.io pages.
+	Version: 		1.00B
+	License: 		N/A
+	License URI: 	N/A
+*/
+
+<style>
+	
+	/* HTML Body Styles */
+	html, body {
+		margin: 0;
+		padding: 0;
+	}
+
+	body {
+		background-color: #040F13;
+	}
+	
+	/* Container Styles */
+	div #container {
+		height: 100%;
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	/* Navigation Bar Styles */
+	.topnav {
+	  background-color: #333;
+	  overflow: hidden;
+	}
+
+	/* Style the links inside the navigation bar */
+	.topnav a {
+	  float: left;
+	  display: block;
+	  color: #FFFFFF;
+	  text-align: center;
+	  padding: 1%;
+	  width: 18%;
+	  text-decoration: none;
+	  font-size: 18px;
+	  font-family: helvetica;
+	}
+
+	/* Change the color of links on hover */
+	.topnav a:hover {
+	  background-color: #ddd;
+	  color: black;
+	}
+
+	/* Add an active class to highlight the current page */
+	.topnav a.active {
+	  background-color: #04AA6D;
+	  color: white;
+	}
+
+	/* Hide the link that should open and close the topnav on small screens */
+	.topnav .icon {
+	  display: none;
+	}
+	
+	/* Header Styles */
+	div #header {
+		position: relative;
+	}
+	
+	div #header h1 {
+		height: 80px;
+		line-height: 80px;
+		margin: 0;
+		padding-left: 10px;
+		color: #FFFFFF;
+		text-align: center;
+		font-family: helvetica;
+	}
+	
+	div #header a {
+		position: absolute;
+		right: 0;
+		top: 23px;
+		padding: 10px;
+		color: #006;
+	}
+
+	/* Footer Styles */
+	div #footer {
+		background: #42444e;
+		color: #fff;
+	}
+	div #footer p {
+		padding: 20px 10px;
+	}
+
+	/* Content Styles */
+	div #content {
+		text-align: center;
+		width: 100%;
+		font-family: helvetica;
+		color: #FFFFFF;
+	}
+	/* Extra Styles */
+	div #extra {
+		background: #147FA9;
+		clear: both;
+		width: 100%;
+	}
+</style>
