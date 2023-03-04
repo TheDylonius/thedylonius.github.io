@@ -1,8 +1,9 @@
 # thedylonius.github.io
-*This website is a WIP (work in progress) between /TheDylonius and /ConHodg.*
+*This website is a WIP.*
 
 ## Main Goals
-We both fancied working on a development project together and settled on creating a website. We found the easiest medium for hosting a website which we can both easily edit and work with was GitHub Pages.
+I felt the need for my own personal space on the internet to share ideas, as well as a little information about myself and my working life.
+
 ## Progress
  - [ ] index.html page
  - [ ] dylan-personal page
@@ -11,5 +12,3 @@ We both fancied working on a development project together and settled on creatin
  - [ ] connor-project page
  - [ ] contact-us page
  - [ ] about-us page
-## Header
-Content
