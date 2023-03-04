@@ -100,10 +100,17 @@ div #footer p {
 
 /* Content Styles */
 div #content {
+	float: left;
+	margin-left: 2%;
+	width: 75%;
 	text-align: center;
-	width: 100%;
 	font-family: helvetica;
 	color: #FFFFFF;
+}
+
+div #photo {
+	float: right;
+	width: 20%;
 }
 
 /* Extra Styles */
