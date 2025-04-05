@@ -7,6 +7,6 @@ This website serves as my personal space on the internet where I can share insig
 ## Progress
  - [x] Homepage
  - [x] Curriculum Vitae page
+ - [x] Projects page
  - [ ] Personal page
- - [ ] Projects page
  - [x] Finalized a style that reflects my vision for the site
