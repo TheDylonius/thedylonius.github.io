@@ -9,115 +9,159 @@
 	License URI: 	N/A
 */
 
-<style>
-
-/* HTML Body Styles */
-html,
-body {
+* {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 
 body {
-	background-color: #040F13;
+	font-family: Arial, sans-serif;
+	line-height: 1.6;
+	background-color: #f4f4f4;
+	color: #333;
 }
 
-/* Container Styles */
-div #container {
-	height: 100%;
-	width: 100%;
-	margin: 0 auto;
+.container {
+	width: 90%;
+	margin: auto;
+	overflow: hidden;
+	padding-left: 20px;
+	padding-right: 20px;
 }
+
+header {
+	padding: 10px;
+	text-align: center;
+	border-bottom: 1px solid #ddd;
+	max-width: 800px;
+	margin-bottom: 10px;
+}
+
+	header h1 {
+		font-size: 2.5em;
+		margin-bottom: 5px;
+		font-weight: 600;
+		letter-spacing: 0.5px;
+	}
+
+	header p {
+		font-size: 1.2em;
+		color: #555;
+	}
+
+p {
+	margin-bottom: 10px;
+}
+
+section {
+	padding: 0px 0;
+	margin-bottom: 20px;
+}
+
+    section h2 {
+		font-size: 2em;
+		margin-bottom: 0px;
+		color: #333;
+	}
+
+ul {
+	margin-top: 10px;
+	margin-left: 25px;
+	margin-bottom: 25px;
+	list-style-type: disc;
+}
+
+	ul li {
+		margin-bottom: 10px;
+	}
+
+.job {
+	margin-bottom: 20px;
+}
+
+footer {
+	background: #f4f4f4; /* Same light tone as the header */
+	color: #222;
+	text-align: center;
+	padding: 30px 20px;
+	border-top: 1px solid #ddd;
+	font-size: 1.1em;
+	font-family: Helvetica, sans-serif;
+}
+
+	footer p {
+		margin: 0;
+		color: #555;
+	}
 
 /* Navigation Bar Styles */
 .topnav {
 	background-color: #333;
+	display: flex;
+	justify-content: space-around;
 	overflow: hidden;
-}
-
-/* Style the links inside the navigation bar */
-.topnav a {
-	float: left;
-	display: block;
-	color: #FFFFFF;
-	text-align: center;
-	padding: 1%;
-	width: 23%;
-	text-decoration: none;
-	font-size: 18px;
-	font-family: helvetica;
-}
-
-/* Change the color of links on hover */
-.topnav a:hover {
-	background-color: #ddd;
-	color: black;
-}
-
-/* Add an active class to highlight the current page */
-.topnav a.active {
-	background-color: #04AA6D;
-	color: white;
-}
-
-/* Hide the link that should open and close the topnav on small screens */
-.topnav .icon {
-	display: none;
-}
-
-/* Header Styles */
-div #header {
-	position: relative;
-}
-
-div #header h1 {
-	height: 80px;
-	line-height: 80px;
-	margin: 0;
-	padding-left: 10px;
-	color: #FFFFFF;
-	text-align: center;
-	font-family: helvetica;
-}
-
-div #header a {
-	position: absolute;
-	right: 0;
-	top: 23px;
-	padding: 10px;
-	color: #006;
-}
-
-/* Footer Styles */
-div #footer {
-	background: #42444e;
-	color: #fff;
-}
-
-div #footer p {
-	padding: 20px 10px;
-}
-
-/* Content Styles */
-div #content {
-	float: left;
-	margin-left: 2%;
-	width: 75%;
-	text-align: center;
-	font-family: helvetica;
-	color: #FFFFFF;
-}
-
-div #photo {
-	float: right;
-	width: 20%;
-}
-
-/* Extra Styles */
-div #extra {
-	background: #147FA9;
-	clear: both;
 	width: 100%;
 }
 
-</style>
+	.topnav a {
+		flex: 1;
+		float: left;
+		display: block;
+		color: #FFFFFF;
+		text-align: center;
+		padding: 1%;
+		text-decoration: none;
+		font-size: 18px;
+		font-family: helvetica;
+	}
+
+		.topnav a:hover {
+			background-color: #ddd;
+			color: black;
+		}
+
+		.topnav a.active {
+			background-color: #04AA6D;
+			color: white;
+		}
+
+	.topnav .icon {
+		display: none;
+	}
+
+#profile-image {
+	margin-top: 40px;
+	padding: 20px 0;
+	text-align: center;
+}
+
+.profile-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+.profile-text {
+	width: 60%;
+	padding-right: 20px;
+}
+
+.profile-img-container {
+	width: 30%;
+}
+
+.profile-img {
+	width: 100%;
+	height: auto;
+	border-radius: 50%;
+	object-fit: cover;
+	border: 4px solid #333;
+}
+
+#profile-image h2 {
+	font-size: 1.5em;
+	margin-bottom: 20px;
+}
