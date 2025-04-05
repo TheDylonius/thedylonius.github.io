@@ -1,8 +1,8 @@
 /*
 	Theme Name: 	Dylonius.GitHub.io - Main Theme
-	Theme URI: 		https://thedylonius.github.io/thedylonius.github.io
+	Theme URI: 		https://thedylonius.github.io
 	Author: 		TheDylonius
-	Author URI: 	https://thedylonius.github.io/thedylonius.github.io
+	Author URI: 	https://thedylonius.github.io
 	Description:	This is the main theme that I will use within my GitHub.io pages.
 	Version: 		1.00B
 	License: 		N/A
@@ -34,7 +34,6 @@ header {
 	padding: 10px;
 	text-align: center;
 	border-bottom: 1px solid #ddd;
-	max-width: 800px;
 	margin-bottom: 10px;
 }
 
