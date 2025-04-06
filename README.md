@@ -9,4 +9,4 @@ This website serves as my personal space on the internet where I can share insig
  - [x] Curriculum Vitae page
  - [x] Projects page
  - [ ] Personal page
- - [x] Finalized a style that reflects my vision for the site
+ - [x] Finalised a style that reflects my vision for the site
