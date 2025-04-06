@@ -23,11 +23,10 @@ body {
 }
 
 .container {
-	width: 90%;
+	width: 95%;
+	max-width: 1100px;
 	margin: auto;
-	overflow: hidden;
-	padding-left: 20px;
-	padding-right: 20px;
+	padding: 0 20px;
 }
 
 header {
@@ -80,7 +79,7 @@ ul {
 }
 
 footer {
-	background: #f4f4f4; /* Same light tone as the header */
+	background: #f4f4f4;
 	color: #222;
 	text-align: center;
 	padding: 30px 20px;
@@ -149,11 +148,23 @@ footer {
 }
 
 .profile-contact-item {
-	margin-right: 10px;
+	display: inline-block;
+	margin: 8px 12px 0 0;
+	font-size: 1em;
 }
+
+	.profile-contact-item a {
+		color: #04AA6D;
+		text-decoration: none;
+	}
+
+		.profile-contact-item a:hover {
+			text-decoration: underline;
+		}
 
 .profile-img-container {
 	width: 30%;
+	max-width: 220px;
 }
 
 .profile-img {
@@ -167,4 +178,32 @@ footer {
 #profile-image h2 {
 	font-size: 1.5em;
 	margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+	.profile-content {
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.profile-text, .profile-img-container {
+		width: 100%;
+		padding: 0;
+	}
+
+	.profile-text {
+		margin-bottom: 20px;
+	}
+
+	.profile-contact-item {
+		display: block;
+		margin-bottom: 10px;
+	}
+}
+
+@media (max-width: 600px) {
+	.topnav a {
+		font-size: 16px;
+		padding: 10px 5px;
+	}
 }
